@@ -13,7 +13,7 @@
    </br>
 
 **Project Link** - [`(https://zealous-moss-072f16f00.3.azurestaticapps.net)`](https://zealous-moss-072f16f00.3.azurestaticapps.net) </br>
-**Project Demo Video Link** - [``]()
+**Project Demo Video Link** - [`https://youtu.be/X08rNWMD7RA`](https://youtu.be/X08rNWMD7RA)
 
 </br></br>
 
