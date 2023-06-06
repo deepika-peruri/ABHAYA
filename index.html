@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Abhaya Hospital
+  </title>
+  <link rel="icon" href="images/logo2.png" type="image/x-icon">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="header">
+    <center class="cen">
+      <img src="images/logo1.png" alt="logo1" border="0" class="logo">
+      <h3>Abhaya Hospital Information Management System
+      </h3>
+    </center>
+    <nav>
+      <ul class="list">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="medi.html">Medicine Record </a></li>
+        <li><a href="registration.html">Patient's Registration </a></li>
+        <li><a href="profile.html">Patient's Profile</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="bot.html">Health Bot</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/img3.webp" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/img2.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/img1.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+  <script>
+    let slideIndex = 0;
+    showSlides();
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000);
+    }
+  </script>
+  <br>
+  <center>
+    <h1 style="color: #e4dfdf;">WELCOME TO AROGYA HOSPITAL!</h1>
+  </center>
+  <center>
+    <h3><i class="gre">We Offer Extensive Medical Procedures To Outbound And Inbound Patients.</i></h3>
+  </center>
+  <br><br><br><br>
+  <center>
+    <h2 style="color: #e4dfdf;">About Us</h2>
+  </center>
+  <div class="about">
+    <i class="texta">
+      <p>We take great pleasure in introducing Abhaya Hospital, Mandideep. Abhaya Hospital was established in 2002 with the aim of providing comprehensive healthcare services to the community. Our hospital is equipped with state-of-the-art facilities and sophisticated medical equipment to ensure the highest quality of care.
+        Abhaya Hospital, Mandideep operates with a capacity of 30 beds, allowing us to cater to a wide range of medical needs. We are proud to announce that our hospital has been awarded the internationally acclaimed ISO 9001:2008 Certification, a testament to our commitment to excellence in healthcare.
+        At Abhaya Hospital, we prioritize patient satisfaction and strive to provide the best possible experience for our patients. Our dedicated team of healthcare professionals ensures that every patient receives personalized care and attention. We offer a comprehensive range of medical services and treatments, all conveniently available under one roof.
+        Whether you require routine medical care, specialized treatments, or surgical procedures, Abhaya Hospital is here to serve you. We prioritize not only the physical well-being of our patients but also their emotional and psychological comfort. Our hospital provides a warm and welcoming environment with excellent hospitality to ensure that our patients feel at ease throughout their stay.
+        We are committed to upholding the highest standards of healthcare and continuously invest in the latest medical advancements to offer the most effective treatments. Abhaya Hospital, Mandideep is dedicated to serving the community and promoting the health and well-being of our patients.
+        We look forward to welcoming you to Abhaya Hospital and providing you with the highest quality healthcare services in a compassionate and caring environment.</p>
+  </div>
+  <div class="about">
+    <p>Being strategically located in close proximity to the factory/establishment site in Mandideep, Abhaya Hospital plays a crucial role in providing emergent medical services and prompt medical relief. In situations involving mass casualties or severely ill patients, our hospital is well-equipped to respond swiftly, as the reduced transportation time can be vital in saving lives. We recognize the importance of immediate medical attention and aim to deliver it efficiently.
+
+      To further enhance our capabilities, we are pleased to announce the upcoming establishment of a fully equipped Intensive Care Unit (ICU). This facility will enable us to effectively treat all types of emergency cases, providing comprehensive critical care services to those in need. Our dedicated team of skilled healthcare professionals will be available round-the-clock to provide specialized care and support in critical situations.
+      Abhaya Hospital takes pride in its accreditation by the Indian Red Cross Society. We have been recognized and authorized by the Indian Red Cross Society, St. John Ambulance MP state branch, under registration number IRCS/2012/1216, dated 4.8.12. This accreditation enables us to conduct First Aid Training programs and issue certifications. We are committed to ensuring that individuals within our community receive proper training in first aid techniques, enabling them to respond effectively to medical emergencies.
+      In fact, Abhaya Hospital is the sole recognized hospital in the entire Raisen District area authorized by the Red Cross Society to conduct First Aid training. We take this responsibility seriously and strive to empower as many individuals as possible with the necessary skills and knowledge to provide immediate medical assistance when needed.
+      At Arogya Hospital, we are dedicated to delivering quality healthcare services and promoting the well-being of our community. Our commitment to emergency medical services, prompt relief, and comprehensive care sets us apart as a trusted healthcare provider. We are honored to serve the community and contribute to the overall health and safety of the region.
+      We welcome individuals and organizations to join us in our mission to create a safer and healthier society by participating in our First Aid Training programs and availing themselves of our medical services when required. Arogya Hospital remains committed to providing exceptional healthcare and fostering a culture of preparedness and assistance in times of medical emergencies.
+    </p>
+    </i>
+  </div>
+  <div class="cont">
+    <br>
+    <h2 class="pho">Contact Us</h2>
+    <i class="fa fa-map-marker" id="ph"> </i> <i class="ph"> xxxxxxxxx,
+      <br>
+      <span class="spa">xxxxxx,</span><br>
+      <span class="spa"> xxxxxxxx,</span><br>
+      <span class="spa"> xx, INDIA</i></span>
+    <br>
+    <i class="fa fa-envelope" id="ph"> </i> <i class="ph"> Arogyahostipal@gmail.com</i>
+    <br><br>
+    <i class="fa fa-phone" id="ph"> </i> <i class="ph"> 12345-67890</i>
+    <br>
+    <br>
+    <br>
+  </div>
+  <div class="foot">
+
+  
+    <center>All Rights Reserved by  Hospital @frt</center>
+  </div>
+</body>
+</html>
