@@ -1,10 +1,9 @@
-# **FRT-Project:✨Hospital Information Management System✨**
+# **Project:✨Hospital Information Management System✨**
 
-**_`This is the final project submitted for the completion of Microsoft Future Ready Talent Virtual Internship.`_**
+
 
 - This is a web based application developed for health related problems
-- This web based Hospital Information Management System application has been developed for the accomplishment of Future Ready Talent Internship program launched by Microsoft, Future Skills Prime,
-  Quess, Github and EY.
+
 
 ## **`Azure technologies`** used For this Project
 
